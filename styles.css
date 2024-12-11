@@ -57,6 +57,8 @@ nav {
     color: #ffd700;
 }
 
+
+
 /* Section styles */
 section {
     padding: 3rem 2rem;
@@ -129,7 +131,7 @@ section {
     background-color: #ffd700;
 }
 
-/* Footer styles */
+/* Footer styles 
 footer {
     background-color: #004d61;
     color: #fff;
@@ -166,8 +168,38 @@ footer {
 
 .social-links a:hover {
     color: #fff;
+}*/
+footer {
+    background-color: #004d61;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
 }
 
+.footer-container p {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #f39c12;
+}
 /* Responsive design */
 @media screen and (max-width: 768px) {
     .nav-links {
