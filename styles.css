@@ -200,6 +200,9 @@ footer {
 .social-links a:hover {
     color: #f39c12;
 }
+.copyright{
+    color: rgb(255,255,255);
+}
 /* Responsive design */
 @media screen and (max-width: 768px) {
     .nav-links {
